@@ -1,0 +1,7 @@
+headers: ["include"]
+target: "executable"
+sources: ["src"]
+licenses: ["MIT"]
+description: ""
+name: "package0"
+version: 1
