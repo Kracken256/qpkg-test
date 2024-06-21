@@ -1,7 +1,7 @@
 headers: ["include"]
 target: "executable"
 sources: ["src"]
-licenses: ["MIT"]
+licenses: []
 description: ""
-name: "package0"
+name: "qpkg_test"
 version: 1

@@ -1,11 +1,9 @@
-@print("hello world")
+@use "v1.0";
 
-import "C" {
-    fn printf(fmt: *i8, ...): i32;
-}
+fn main(): i32 {
+    import "C" fn printf(fmt: string, ...);
+    
+    printf("Hello, World!");
 
-fn main() {
-    printf("Hello World\n");
-
-    ret;
+    ret 0;
 }
